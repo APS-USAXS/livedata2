@@ -1,0 +1,897 @@
+<html>
+  <head>
+    <title>pvWebMonitor: EPICS process variables to be monitored and reported</title>
+  </head>
+  <body>
+    <h1>pvWebMonitor: EPICS process variables to be monitored and reported</h1>
+    <small>
+      <p>
+                	XML version: 
+                	1.0
+                	(update version if format of XML file changes)
+                </p>
+    </small>
+    <h2>definitions</h2>
+    <dl>
+      <dt>mne</dt>
+      <dd>
+  	one-word mnemonic reference used in python and xslt code
+  	(mne should be unique for each EPICS_PV)
+  </dd>
+      <dt>PV</dt>
+      <dd>
+  	EPICS process variable name (must be used in only one EPICS_PV)
+  </dd>
+      <dt>description</dt>
+      <dd>
+  	useful text informative to others
+  </dd>
+      <dt>display_format</dt>
+      <dd>
+  	(optional, default="%s") PVs will be formatted for display with this string
+  </dd>
+      <dt>_ignore_</dt>
+      <dd>
+    (optional, default="false") this PV is ignored if value is not "false"
+  </dd>
+      <dt>as_string</dt>
+      <dd>
+    (optional, default="false") write this PV from formatted raw_value if "false", from char_value if "true"
+  </dd>
+    </dl>
+    <table border="2">
+      <tr style="background-color: grey; color: white;">
+        <th>mne</th>
+        <th>PV</th>
+        <th>_ignore_</th>
+        <th>description</th>
+        <th>display_format</th>
+      </tr>
+      <tr>
+        <td>DCM_E</td>
+        <td>12ida2:EnCalc</td>
+        <td/>
+        <td>DCM E, keV</td>
+        <td>%.2f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>linkamT96_temp</td>
+        <td>usxLINKAM:tc1:TEMP</td>
+        <td/>
+        <td>Linkam T96 Temp., C</td>
+        <td>%.1f</td>
+      </tr>
+      <tr>
+        <td>linkamT96_status</td>
+        <td>usxLINKAM:tc1:STAT:HTR1:HEATING</td>
+        <td/>
+        <td>Linkam Heating</td>
+        <td>%s</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>linkamT96_rate</td>
+        <td>usxLINKAM:tc1:RAMPRATE</td>
+        <td/>
+        <td>Linkam Rate, C/min</td>
+        <td>%.1f</td>
+      </tr>
+      <tr>
+        <td>linkamT96_limit</td>
+        <td>usxLINKAM:tc1:SETPOINT</td>
+        <td/>
+        <td>Linkam Limit, C</td>
+        <td>%.0f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>linkamT96_ln2Status</td>
+        <td>usxLINKAM:tc1:STAT:LNP:PUMPING</td>
+        <td/>
+        <td>Linkam LN2 Status, C/min</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>linkamT96_Pressure</td>
+        <td>usxLINKAM:tc1:VACUUM</td>
+        <td/>
+        <td>Linkam Pressure, mBar</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>linkamT96_VaccumStatus</td>
+        <td>usxLINKAM:tc1:STAT:VAC:CNTRL</td>
+        <td/>
+        <td>Linkam Vacuum Status</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>linkamT96_errors</td>
+        <td>usxLINKAM:tc1:CTRLLR:ERR</td>
+        <td/>
+        <td>Linkam errors</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>instrument_mode</td>
+        <td>usxLAX:SAXS:USAXSSAXSMode</td>
+        <td/>
+        <td>Instrument mode</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>spec_macro_file</td>
+        <td>usxLAX:USAXS:macroFile</td>
+        <td/>
+        <td>SPEC macro file</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>state</td>
+        <td>usxLAX:state</td>
+        <td/>
+        <td>SPEC what is happening?</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>spec_data_file</td>
+        <td>usxLAX:specFile</td>
+        <td/>
+        <td>SPEC data file</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>sampleTitle</td>
+        <td>usxLAX:sampleTitle</td>
+        <td/>
+        <td>SPEC sample title</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>spec_dir</td>
+        <td>usxLAX:userDir</td>
+        <td/>
+        <td>SPEC data directory</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>spec_data_file</td>
+        <td>usxLAX:specFile</td>
+        <td/>
+        <td>SPEC data file</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>sampleTitle</td>
+        <td>usxLAX:sampleTitle</td>
+        <td/>
+        <td>SPEC sample title</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>spec_dir</td>
+        <td>usxLAX:userDir</td>
+        <td/>
+        <td>SPEC data directory</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>beam_available</td>
+        <td>usxLAX:USAXS:BeamActive.VAL</td>
+        <td/>
+        <td>12-ID-C beam is available</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>Und_E</td>
+        <td>S12ID:USID:EnergyM.VAL</td>
+        <td/>
+        <td>ID E, keV</td>
+        <td>%.2f</td>
+      </tr>
+      <tr>
+        <td>DCM_E</td>
+        <td>12ida2:EnCalc</td>
+        <td/>
+        <td>DCM E, keV</td>
+        <td>%.2f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>SR_current</td>
+        <td>S:SRcurrentAI</td>
+        <td/>
+        <td>APS storage ring current, mA</td>
+        <td>%.1f</td>
+      </tr>
+      <tr>
+        <td>ar_dmov</td>
+        <td>usxAERO:m6.DMOV</td>
+        <td/>
+        <td>motor done moving AR</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>ar</td>
+        <td>usxAERO:m6.RBV</td>
+        <td/>
+        <td>motor AR, degrees</td>
+        <td>%.6f</td>
+      </tr>
+      <tr>
+        <td>mr_dmov</td>
+        <td>usxAERO:m12.DMOV</td>
+        <td/>
+        <td>motor done moving MR</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>mr</td>
+        <td>usxAERO:m12.RBV</td>
+        <td/>
+        <td>motor MR, degrees</td>
+        <td>%.6f</td>
+      </tr>
+      <tr>
+        <td>mx_dmov</td>
+        <td>usxAERO:m10.DMOV</td>
+        <td/>
+        <td>motor done moving MX</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>mx</td>
+        <td>usxAERO:m10.RBV</td>
+        <td/>
+        <td>motor MX, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>my_dmov</td>
+        <td>usxAERO:m11.DMOV</td>
+        <td/>
+        <td>motor done moving MY</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>my</td>
+        <td>usxAERO:m11.RBV</td>
+        <td/>
+        <td>motor MY, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>ax_dmov</td>
+        <td>usxAERO:m4.DMOV</td>
+        <td/>
+        <td>motor done moving AX</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>ax</td>
+        <td>usxAERO:m4.RBV</td>
+        <td/>
+        <td>motor AX, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>ay_dmov</td>
+        <td>usxAERO:m5.DMOV</td>
+        <td/>
+        <td>motor done moving AY</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>ay</td>
+        <td>usxAERO:m5.RBV</td>
+        <td/>
+        <td>motor AY, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>I0_x_dmov</td>
+        <td>usxLAX:m58:c0:m7.DMOV</td>
+        <td/>
+        <td>motor done moving I0_stage</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>I0_x</td>
+        <td>usxLAX:m58:c0:m7.RBV</td>
+        <td/>
+        <td>motor I0_x position, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>I0_y_dmov</td>
+        <td>usxLAX:m58:c0:m6.DMOV</td>
+        <td/>
+        <td>motor done moving I0 position</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>I0_y</td>
+        <td>usxLAX:m58:c0:m6.RBV</td>
+        <td/>
+        <td>motor I0_y position, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>Tcam_dmov</td>
+        <td>usxLAX:m58:c0:m5.DMOV</td>
+        <td/>
+        <td>motor done moving TCAM position</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>Tcam</td>
+        <td>usxLAX:m58:c0:m5.RBV</td>
+        <td/>
+        <td>motor TCAM position, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>sx_dmov</td>
+        <td>usxAERO:m8.DMOV</td>
+        <td/>
+        <td>motor done moving SX</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>sx</td>
+        <td>usxAERO:m8.RBV</td>
+        <td/>
+        <td>motor SX, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>sy_dmov</td>
+        <td>usxAERO:m9.DMOV</td>
+        <td/>
+        <td>motor done moving SY</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>sy</td>
+        <td>usxAERO:m9.RBV</td>
+        <td/>
+        <td>motor SY, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>dx_dmov</td>
+        <td>usxAERO:m1.DMOV</td>
+        <td/>
+        <td>motor done moving DX</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>dx</td>
+        <td>usxAERO:m1.RBV</td>
+        <td/>
+        <td>motor DX, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>dy_dmov</td>
+        <td>usxAERO:m2.DMOV</td>
+        <td/>
+        <td>motor done moving DY</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>dy</td>
+        <td>usxAERO:m2.RBV</td>
+        <td/>
+        <td>motor DY, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>uslitv0_dmov</td>
+        <td>usxLAX:m58:c1:m5.DMOV</td>
+        <td/>
+        <td>USAXS slit vertical center</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>uslitv0</td>
+        <td>usxLAX:m58:c1:m5.RBV</td>
+        <td/>
+        <td>USAXS slit vertical center, mm</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>uslith0_dmov</td>
+        <td>usxLAX:m58:c1:m6.DMOV</td>
+        <td/>
+        <td>USAXS slit horizontal center</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>uslith0</td>
+        <td>usxLAX:m58:c1:m6.RBV</td>
+        <td/>
+        <td>USAXS slit horizontal center, mm</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>uslitv_dmov</td>
+        <td>usxLAX:m58:c1:m7.DMOV</td>
+        <td/>
+        <td>USAXS slit vertical gap</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>uslitv</td>
+        <td>usxLAX:m58:c1:m7.RBV</td>
+        <td/>
+        <td>USAXS slit vertical gap, mm</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>uslith_dmov</td>
+        <td>usxLAX:m58:c1:m8.DMOV</td>
+        <td/>
+        <td>USAXS slit horizontal gap</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>uslith</td>
+        <td>usxLAX:m58:c1:m8.RBV</td>
+        <td/>
+        <td>USAXS slit horizontal gap, mm</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>saxs_x_dmov</td>
+        <td>usxAERO:m13.DMOV</td>
+        <td/>
+        <td>motor done moving saxs_x</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>saxs_x</td>
+        <td>usxAERO:m13.RBV</td>
+        <td/>
+        <td>motor saxs_x, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>saxs_y_dmov</td>
+        <td>usxAERO:m15.DMOV</td>
+        <td/>
+        <td>motor done moving saxs_y</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>saxs_y</td>
+        <td>usxAERO:m15.RBV</td>
+        <td/>
+        <td>motor saxs_y, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>saxs_z_dmov</td>
+        <td>usxAERO:m14.DMOV</td>
+        <td/>
+        <td>motor done moving saxs_z</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>saxs_z</td>
+        <td>usxAERO:m14.RBV</td>
+        <td/>
+        <td>motor saxs_z, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>waxs1_x_dmov</td>
+        <td>usxAERO:m3.DMOV</td>
+        <td/>
+        <td>motor done moving waxs1_x</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>waxs1_x</td>
+        <td>usxAERO:m3.RBV</td>
+        <td/>
+        <td>motor waxs1_x, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>waxs2_x_dmov</td>
+        <td>usxAERO:m7.DMOV</td>
+        <td/>
+        <td>motor done moving waxs2_x</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>waxs2_x</td>
+        <td>usxAERO:m7.RBV</td>
+        <td/>
+        <td>motor waxs2_x, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>GuardOutB_dmov</td>
+        <td>usxLAX:m58:c0:m1.DMOV</td>
+        <td/>
+        <td>motor done moving GuardOutB</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>GuardOutB</td>
+        <td>usxLAX:m58:c0:m1.RBV</td>
+        <td/>
+        <td>motor GuardOutB slit, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>GuardInB_dmov</td>
+        <td>usxLAX:m58:c0:m2.DMOV</td>
+        <td/>
+        <td>motor done moving GuardInB</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>GuardInB</td>
+        <td>usxLAX:m58:c0:m2.RBV</td>
+        <td/>
+        <td>motor GuardInB slit, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>GuardTop_dmov</td>
+        <td>usxLAX:m58:c0:m3.DMOV</td>
+        <td/>
+        <td>motor done moving GuardTop</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>GuardTop</td>
+        <td>usxLAX:m58:c0:m3.RBV</td>
+        <td/>
+        <td>motor GuardTop slit, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>GuardBot_dmov</td>
+        <td>usxLAX:m58:c0:m4.DMOV</td>
+        <td/>
+        <td>motor done moving GuardBot</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>GuardBot</td>
+        <td>usxLAX:m58:c0:m4.RBV</td>
+        <td/>
+        <td>motor GuardBot slit, mm</td>
+        <td>%.3f</td>
+      </tr>
+      <tr>
+        <td>M1TPico_dmov</td>
+        <td>usxLAX:pic:m5.DMOV</td>
+        <td/>
+        <td>motor done moving M1TPico</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>M1TPico</td>
+        <td>usxLAX:pic:m5.RBV</td>
+        <td/>
+        <td>motor M1TPico, mm</td>
+        <td>%.6f</td>
+      </tr>
+      <tr>
+        <td>M2TPico_dmov</td>
+        <td>usxLAX:pic:m6.DMOV</td>
+        <td/>
+        <td>motor done moving M2TPico</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>M2TPico</td>
+        <td>usxLAX:pic:m6.RBV</td>
+        <td/>
+        <td>motor M2TPico, mm</td>
+        <td>%.6f</td>
+      </tr>
+      <tr>
+        <td>A2Rp_dmov</td>
+        <td>usxLAX:pi:c0:m1.DMOV</td>
+        <td/>
+        <td>motor done moving A2Rp</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>A2Rp_rbv</td>
+        <td>usxLAX:pi:c0:m1.RBV</td>
+        <td/>
+        <td>motor A2Rp, VDC</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>M2Rp_dmov</td>
+        <td>usxLAX:pi:c0:m2.DMOV</td>
+        <td/>
+        <td>motor done moving M2Rp</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>M2Rp_rbv</td>
+        <td>usxLAX:pi:c0:m2.RBV</td>
+        <td/>
+        <td>motor M2Rp, VDC</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>MSRp_dmov</td>
+        <td>usxLAX:pi:c0:m3.DMOV</td>
+        <td/>
+        <td>motor done moving MSRp</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>MSRp_rbv</td>
+        <td>usxLAX:pi:c0:m3.RBV</td>
+        <td/>
+        <td>motor MSRp, VDC</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>ASRp_dmov</td>
+        <td>usxLAX:pi:c0:m4.DMOV</td>
+        <td/>
+        <td>motor done moving ASRp</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>A2Rp_rbv</td>
+        <td>usxLAX:pi:c0:m4.RBV</td>
+        <td/>
+        <td>motor ASRp, VDC</td>
+        <td>%.4f</td>
+      </tr>
+      <tr>
+        <td>USAXS_I</td>
+        <td>usxLAX:USAXS:I</td>
+        <td/>
+        <td>I, a.u.</td>
+        <td>%.4e</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>USAXS_Q</td>
+        <td>usxLAX:USAXS:Q</td>
+        <td/>
+        <td>|Q|, 1/A</td>
+        <td>%.4e</td>
+      </tr>
+      <tr>
+        <td>SAD</td>
+        <td>usxLAX:USAXS:SAD</td>
+        <td/>
+        <td>sample-analyzer distance, mm</td>
+        <td>%.1f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>SDD</td>
+        <td>usxLAX:USAXS:SDD</td>
+        <td/>
+        <td>sample-detector distance, mm</td>
+        <td>%.1f</td>
+      </tr>
+      <tr>
+        <td>spec_scan</td>
+        <td>usxLAX:specScan</td>
+        <td/>
+        <td>SPEC scan number</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>lax_alldone</td>
+        <td>usxLAX:alldone</td>
+        <td/>
+        <td>LAX motors moving</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>timeStamp</td>
+        <td>usxLAX:timeStamp</td>
+        <td/>
+        <td>USAXS macro timeStamp</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>USAXS_collecting</td>
+        <td>usxLAX:dataColInProgress</td>
+        <td/>
+        <td>Collecting data</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>UPDsize</td>
+        <td>usxLAX:USAXS:UPDsize</td>
+        <td/>
+        <td>photodiode size</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>I000_amp_current</td>
+        <td>usxLAX:USAXS:I000</td>
+        <td/>
+        <td>I000 computed current, A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr>
+        <td>diode_amp_current</td>
+        <td>usxLAX:USAXS:upd</td>
+        <td/>
+        <td>photodiode computed current, A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>I0_amp_current</td>
+        <td>usxLAX:USAXS:I0</td>
+        <td/>
+        <td>I0 computed current, A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr>
+        <td>I00_amp_current</td>
+        <td>usxLAX:USAXS:I00</td>
+        <td/>
+        <td>I00 computed current, A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>scaler_cnt</td>
+        <td>usxLAX:vsc:c0.CNT</td>
+        <td/>
+        <td>scaler counting time, s</td>
+        <td>%.2f</td>
+      </tr>
+      <tr>
+        <td>scaler_I0</td>
+        <td>usxLAX:vsc:c0.S2</td>
+        <td/>
+        <td>scaler I0, counts</td>
+        <td>%d</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>scaler_I00</td>
+        <td>usxLAX:vsc:c0.S3</td>
+        <td/>
+        <td>scaler I00, counts</td>
+        <td>%d</td>
+      </tr>
+      <tr>
+        <td>scaler_diode</td>
+        <td>usxLAX:vsc:c0.S4</td>
+        <td/>
+        <td>scaler diode, counts</td>
+        <td>%d</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>scaler_t</td>
+        <td>usxLAX:vsc:c0.T</td>
+        <td/>
+        <td>scaler counting time elasped, s</td>
+        <td>%.1f</td>
+      </tr>
+      <tr>
+        <td>scaler_tp</td>
+        <td>usxLAX:vsc:c0.TP</td>
+        <td/>
+        <td>scaler counting time preset, s</td>
+        <td>%.1f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>scaler_I000</td>
+        <td>usxLAX:vsc:c2.S2</td>
+        <td/>
+        <td>scaler I000, counts</td>
+        <td>%d</td>
+      </tr>
+      <tr>
+        <td>I0_VDC</td>
+        <td>usxRIO:GalilAi0_MON.VAL</td>
+        <td/>
+        <td>ADC I0, VDC</td>
+        <td>%.2f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>I00_VDC</td>
+        <td>usxRIO:GalilAi1_MON.VAL</td>
+        <td/>
+        <td>ADC I00, VDC</td>
+        <td>%.2f</td>
+      </tr>
+      <tr>
+        <td>diode_VDC</td>
+        <td>usxRIO:GalilAi2_MON.VAL</td>
+        <td/>
+        <td>ADC diode, VDC</td>
+        <td>%.2f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>diode_amp_gain</td>
+        <td>usxLAX:fem01:seq01:gain</td>
+        <td/>
+        <td>PD amplifier gain V/A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr>
+        <td>I0_amp_gain</td>
+        <td>usxRIO:fem02:seq01:gain</td>
+        <td/>
+        <td>I0 amplifier gain V/A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>I00_amp_gain</td>
+        <td>usxRIO:fem03:seq01:gain</td>
+        <td/>
+        <td>I00 amplifier gain, V/A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr>
+        <td>I000_amp_gain</td>
+        <td>usxRIO:fem04:seq01:gain</td>
+        <td/>
+        <td>I000 amplifier gain, V/A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>diode_amp_gain</td>
+        <td>usxLAX:pd01:seq02:gain</td>
+        <td/>
+        <td>PD amplifier diode gain, V/A</td>
+        <td>%.2e</td>
+      </tr>
+      <tr>
+        <td>diode_current</td>
+        <td>usxLAX:pd01:seq02:lucurrent</td>
+        <td/>
+        <td>photodiode last-update current, A</td>
+        <td>%.3e</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>diode_count_rate</td>
+        <td>usxLAX:pd01:seq02:lurate</td>
+        <td/>
+        <td>diode count rate (at last update), c/s</td>
+        <td/>
+      </tr>
+      <tr>
+        <td>pf4_thickness_Al</td>
+        <td>12idPyFilter:FL1:sortedIndex_RBV</td>
+        <td/>
+        <td>filter order</td>
+        <td>%.1f</td>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>pf4_trans</td>
+        <td>12idPyFilter:FL1:transmission_RBV</td>
+        <td/>
+        <td>filter transmission</td>
+        <td>%.2e</td>
+      </tr>
+      <tr>
+        <td>white_shtr_opened</td>
+        <td>PA:12ID:STA_A_FES_OPEN_PL.VAL</td>
+        <td/>
+        <td>12-ID white shutter opened</td>
+        <td/>
+      </tr>
+      <tr bgcolor="Azure">
+        <td>mono_shtr_opened</td>
+        <td>PA:12ID:STA_C_SCS_OPEN_PL.VAL</td>
+        <td/>
+        <td>12-ID-C mono shutter opened</td>
+        <td/>
+      </tr>
+    </table>
+    <hr/>
+    <p>
+      <small>
+                        report page: <pre>pvlist.xsl</pre></small>
+    </p>
+  </body>
+</html>

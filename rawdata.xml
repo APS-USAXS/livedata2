@@ -1,0 +1,1489 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="pvlist.xsl"?>
+
+<pvWebMonitor version="1">
+  <written_by>pvWebMonitor/PvWatch</written_by>
+  <datetime>2025-04-23T11:45:33</datetime>
+  <pv id="A2Rp_dmov" name="usxLAX:pi:c0:m1.DMOV">
+    <pvname>usxLAX:pi:c0:m1.DMOV</pvname>
+    <mnemonic>A2Rp_dmov</mnemonic>
+    <description>motor done moving A2Rp</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="A2Rp_rbv" name="usxLAX:pi:c0:m4.RBV">
+    <pvname>usxLAX:pi:c0:m4.RBV</pvname>
+    <mnemonic>A2Rp_rbv</mnemonic>
+    <description>motor ASRp, VDC</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>12013</counter>
+    <units>None</units>
+    <value>-0.0014</value>
+    <char_value>-0.0014</char_value>
+    <raw_value>-0.0014</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="ASRp_dmov" name="usxLAX:pi:c0:m4.DMOV">
+    <pvname>usxLAX:pi:c0:m4.DMOV</pvname>
+    <mnemonic>ASRp_dmov</mnemonic>
+    <description>motor done moving ASRp</description>
+    <timestamp>2025-04-23T09:37:54</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="DCM_E" name="12ida2:EnCalc">
+    <pvname>12ida2:EnCalc</pvname>
+    <mnemonic>DCM_E</mnemonic>
+    <description>DCM E, keV</description>
+    <timestamp>2025-04-23T11:44:13</timestamp>
+    <record_type>None</record_type>
+    <counter>3517</counter>
+    <units>None</units>
+    <value>16.15</value>
+    <char_value>16.15</char_value>
+    <raw_value>16.150000209562638</raw_value>
+    <fmt>%.2f</fmt>
+  </pv>
+  <pv id="GuardBot" name="usxLAX:m58:c0:m4.RBV">
+    <pvname>usxLAX:m58:c0:m4.RBV</pvname>
+    <mnemonic>GuardBot</mnemonic>
+    <description>motor GuardBot slit, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.000</value>
+    <char_value>-0.000</char_value>
+    <raw_value>-1.1368683772161603e-13</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="GuardBot_dmov" name="usxLAX:m58:c0:m4.DMOV">
+    <pvname>usxLAX:m58:c0:m4.DMOV</pvname>
+    <mnemonic>GuardBot_dmov</mnemonic>
+    <description>motor done moving GuardBot</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="GuardInB" name="usxLAX:m58:c0:m2.RBV">
+    <pvname>usxLAX:m58:c0:m2.RBV</pvname>
+    <mnemonic>GuardInB</mnemonic>
+    <description>motor GuardInB slit, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>700.000</value>
+    <char_value>700.000</char_value>
+    <raw_value>700.0</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="GuardInB_dmov" name="usxLAX:m58:c0:m2.DMOV">
+    <pvname>usxLAX:m58:c0:m2.DMOV</pvname>
+    <mnemonic>GuardInB_dmov</mnemonic>
+    <description>motor done moving GuardInB</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="GuardOutB" name="usxLAX:m58:c0:m1.RBV">
+    <pvname>usxLAX:m58:c0:m1.RBV</pvname>
+    <mnemonic>GuardOutB</mnemonic>
+    <description>motor GuardOutB slit, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-22.291</value>
+    <char_value>-22.291</char_value>
+    <raw_value>-22.290596003051753</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="GuardOutB_dmov" name="usxLAX:m58:c0:m1.DMOV">
+    <pvname>usxLAX:m58:c0:m1.DMOV</pvname>
+    <mnemonic>GuardOutB_dmov</mnemonic>
+    <description>motor done moving GuardOutB</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="GuardTop" name="usxLAX:m58:c0:m3.RBV">
+    <pvname>usxLAX:m58:c0:m3.RBV</pvname>
+    <mnemonic>GuardTop</mnemonic>
+    <description>motor GuardTop slit, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.100</value>
+    <char_value>-0.100</char_value>
+    <raw_value>-0.0999999999999659</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="GuardTop_dmov" name="usxLAX:m58:c0:m3.DMOV">
+    <pvname>usxLAX:m58:c0:m3.DMOV</pvname>
+    <mnemonic>GuardTop_dmov</mnemonic>
+    <description>motor done moving GuardTop</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="I000_amp_current" name="usxLAX:USAXS:I000">
+    <pvname>usxLAX:USAXS:I000</pvname>
+    <mnemonic>I000_amp_current</mnemonic>
+    <description>I000 computed current, A</description>
+    <timestamp>2025-04-15T13:28:10</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.00e+00</value>
+    <char_value>0.00e+00</char_value>
+    <raw_value>0.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="I000_amp_gain" name="usxRIO:fem04:seq01:gain">
+    <pvname>usxRIO:fem04:seq01:gain</pvname>
+    <mnemonic>I000_amp_gain</mnemonic>
+    <description>I000 amplifier gain, V/A</description>
+    <timestamp>2025-01-10T14:42:13</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.00e+06</value>
+    <char_value>1.00e+06</char_value>
+    <raw_value>1000000.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="I00_VDC" name="usxRIO:GalilAi1_MON.VAL">
+    <pvname>usxRIO:GalilAi1_MON.VAL</pvname>
+    <mnemonic>I00_VDC</mnemonic>
+    <description>ADC I00, VDC</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>74256</counter>
+    <units>None</units>
+    <value>2.54</value>
+    <char_value>2.54</char_value>
+    <raw_value>2.54425048828125</raw_value>
+    <fmt>%.2f</fmt>
+  </pv>
+  <pv id="I00_amp_current" name="usxLAX:USAXS:I00">
+    <pvname>usxLAX:USAXS:I00</pvname>
+    <mnemonic>I00_amp_current</mnemonic>
+    <description>I00 computed current, A</description>
+    <timestamp>2025-04-15T13:28:10</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.00e+00</value>
+    <char_value>0.00e+00</char_value>
+    <raw_value>0.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="I00_amp_gain" name="usxRIO:fem03:seq01:gain">
+    <pvname>usxRIO:fem03:seq01:gain</pvname>
+    <mnemonic>I00_amp_gain</mnemonic>
+    <description>I00 amplifier gain, V/A</description>
+    <timestamp>2025-04-06T20:02:45</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.00e+09</value>
+    <char_value>1.00e+09</char_value>
+    <raw_value>1000000000.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="I0_VDC" name="usxRIO:GalilAi0_MON.VAL">
+    <pvname>usxRIO:GalilAi0_MON.VAL</pvname>
+    <mnemonic>I0_VDC</mnemonic>
+    <description>ADC I0, VDC</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>73713</counter>
+    <units>None</units>
+    <value>2.58</value>
+    <char_value>2.58</char_value>
+    <raw_value>2.57904052734375</raw_value>
+    <fmt>%.2f</fmt>
+  </pv>
+  <pv id="I0_amp_current" name="usxLAX:USAXS:I0">
+    <pvname>usxLAX:USAXS:I0</pvname>
+    <mnemonic>I0_amp_current</mnemonic>
+    <description>I0 computed current, A</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>2928</counter>
+    <units>None</units>
+    <value>1.90e-11</value>
+    <char_value>1.90e-11</char_value>
+    <raw_value>1.9e-11</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="I0_amp_gain" name="usxRIO:fem02:seq01:gain">
+    <pvname>usxRIO:fem02:seq01:gain</pvname>
+    <mnemonic>I0_amp_gain</mnemonic>
+    <description>I0 amplifier gain V/A</description>
+    <timestamp>2025-04-07T07:05:03</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.00e+08</value>
+    <char_value>1.00e+08</char_value>
+    <raw_value>100000000.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="I0_x" name="usxLAX:m58:c0:m7.RBV">
+    <pvname>usxLAX:m58:c0:m7.RBV</pvname>
+    <mnemonic>I0_x</mnemonic>
+    <description>motor I0_x position, mm</description>
+    <timestamp>2025-04-07T10:00:18</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-185.351</value>
+    <char_value>-185.351</char_value>
+    <raw_value>-185.35100000000006</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="I0_x_dmov" name="usxLAX:m58:c0:m7.DMOV">
+    <pvname>usxLAX:m58:c0:m7.DMOV</pvname>
+    <mnemonic>I0_x_dmov</mnemonic>
+    <description>motor done moving I0_stage</description>
+    <timestamp>2025-04-07T10:00:18</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="I0_y" name="usxLAX:m58:c0:m6.RBV">
+    <pvname>usxLAX:m58:c0:m6.RBV</pvname>
+    <mnemonic>I0_y</mnemonic>
+    <description>motor I0_y position, mm</description>
+    <timestamp>2025-03-25T08:38:47</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.000</value>
+    <char_value>-0.000</char_value>
+    <raw_value>-7.105427357601002e-15</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="I0_y_dmov" name="usxLAX:m58:c0:m6.DMOV">
+    <pvname>usxLAX:m58:c0:m6.DMOV</pvname>
+    <mnemonic>I0_y_dmov</mnemonic>
+    <description>motor done moving I0 position</description>
+    <timestamp>2025-03-25T08:38:47</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="M1TPico" name="usxLAX:pic:m5.RBV">
+    <pvname>usxLAX:pic:m5.RBV</pvname>
+    <mnemonic>M1TPico</mnemonic>
+    <description>motor M1TPico, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>174.990000</value>
+    <char_value>174.990000</char_value>
+    <raw_value>174.99</raw_value>
+    <fmt>%.6f</fmt>
+  </pv>
+  <pv id="M1TPico_dmov" name="usxLAX:pic:m5.DMOV">
+    <pvname>usxLAX:pic:m5.DMOV</pvname>
+    <mnemonic>M1TPico_dmov</mnemonic>
+    <description>motor done moving M1TPico</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="M2Rp_dmov" name="usxLAX:pi:c0:m2.DMOV">
+    <pvname>usxLAX:pi:c0:m2.DMOV</pvname>
+    <mnemonic>M2Rp_dmov</mnemonic>
+    <description>motor done moving M2Rp</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="M2Rp_rbv" name="usxLAX:pi:c0:m2.RBV">
+    <pvname>usxLAX:pi:c0:m2.RBV</pvname>
+    <mnemonic>M2Rp_rbv</mnemonic>
+    <description>motor M2Rp, VDC</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>13384</counter>
+    <units>None</units>
+    <value>-72.9983</value>
+    <char_value>-72.9983</char_value>
+    <raw_value>-72.9983</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="M2TPico" name="usxLAX:pic:m6.RBV">
+    <pvname>usxLAX:pic:m6.RBV</pvname>
+    <mnemonic>M2TPico</mnemonic>
+    <description>motor M2TPico, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.000000</value>
+    <char_value>-0.000000</char_value>
+    <raw_value>-1.1368683772161603e-13</raw_value>
+    <fmt>%.6f</fmt>
+  </pv>
+  <pv id="M2TPico_dmov" name="usxLAX:pic:m6.DMOV">
+    <pvname>usxLAX:pic:m6.DMOV</pvname>
+    <mnemonic>M2TPico_dmov</mnemonic>
+    <description>motor done moving M2TPico</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="MSRp_dmov" name="usxLAX:pi:c0:m3.DMOV">
+    <pvname>usxLAX:pi:c0:m3.DMOV</pvname>
+    <mnemonic>MSRp_dmov</mnemonic>
+    <description>motor done moving MSRp</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="MSRp_rbv" name="usxLAX:pi:c0:m3.RBV">
+    <pvname>usxLAX:pi:c0:m3.RBV</pvname>
+    <mnemonic>MSRp_rbv</mnemonic>
+    <description>motor MSRp, VDC</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>13389</counter>
+    <units>None</units>
+    <value>56.3216</value>
+    <char_value>56.3216</char_value>
+    <raw_value>56.321600000000004</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="SAD" name="usxLAX:USAXS:SAD">
+    <pvname>usxLAX:USAXS:SAD</pvname>
+    <mnemonic>SAD</mnemonic>
+    <description>sample-analyzer distance, mm</description>
+    <timestamp>2025-04-05T14:54:49</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>240.0</value>
+    <char_value>240.0</char_value>
+    <raw_value>240.0</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="SDD" name="usxLAX:USAXS:SDD">
+    <pvname>usxLAX:USAXS:SDD</pvname>
+    <mnemonic>SDD</mnemonic>
+    <description>sample-detector distance, mm</description>
+    <timestamp>2025-04-05T14:54:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1085.0</value>
+    <char_value>1085.0</char_value>
+    <raw_value>1085.0</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="SR_current" name="S:SRcurrentAI">
+    <pvname>S:SRcurrentAI</pvname>
+    <mnemonic>SR_current</mnemonic>
+    <description>APS storage ring current, mA</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>7661</counter>
+    <units>None</units>
+    <value>129.9</value>
+    <char_value>129.9</char_value>
+    <raw_value>129.8532476466922</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="Tcam" name="usxLAX:m58:c0:m5.RBV">
+    <pvname>usxLAX:m58:c0:m5.RBV</pvname>
+    <mnemonic>Tcam</mnemonic>
+    <description>motor TCAM position, mm</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>35.000</value>
+    <char_value>35.000</char_value>
+    <raw_value>35.0</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="Tcam_dmov" name="usxLAX:m58:c0:m5.DMOV">
+    <pvname>usxLAX:m58:c0:m5.DMOV</pvname>
+    <mnemonic>Tcam_dmov</mnemonic>
+    <description>motor done moving TCAM position</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="UPDsize" name="usxLAX:USAXS:UPDsize">
+    <pvname>usxLAX:USAXS:UPDsize</pvname>
+    <mnemonic>UPDsize</mnemonic>
+    <description>photodiode size</description>
+    <timestamp>2025-03-19T10:40:15</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>5.4</value>
+    <char_value>5.4</char_value>
+    <raw_value>5.4</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="USAXS_I" name="usxLAX:USAXS:I">
+    <pvname>usxLAX:USAXS:I</pvname>
+    <mnemonic>USAXS_I</mnemonic>
+    <description>I, a.u.</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.0000e+00</value>
+    <char_value>0.0000e+00</char_value>
+    <raw_value>0.0</raw_value>
+    <fmt>%.4e</fmt>
+  </pv>
+  <pv id="USAXS_Q" name="usxLAX:USAXS:Q">
+    <pvname>usxLAX:USAXS:Q</pvname>
+    <mnemonic>USAXS_Q</mnemonic>
+    <description>|Q|, 1/A</description>
+    <timestamp>2025-04-23T11:44:13</timestamp>
+    <record_type>None</record_type>
+    <counter>3345</counter>
+    <units>None</units>
+    <value>7.6913e-01</value>
+    <char_value>7.6913e-01</char_value>
+    <raw_value>0.7691321388931055</raw_value>
+    <fmt>%.4e</fmt>
+  </pv>
+  <pv id="USAXS_collecting" name="usxLAX:dataColInProgress">
+    <pvname>usxLAX:dataColInProgress</pvname>
+    <mnemonic>USAXS_collecting</mnemonic>
+    <description>Collecting data</description>
+    <timestamp>2025-04-07T07:18:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0</value>
+    <char_value>0</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="Und_E" name="S12ID:USID:EnergyM.VAL">
+    <pvname>S12ID:USID:EnergyM.VAL</pvname>
+    <mnemonic>Und_E</mnemonic>
+    <description>ID E, keV</description>
+    <timestamp>2025-04-23T11:45:32</timestamp>
+    <record_type>None</record_type>
+    <counter>18140</counter>
+    <units>None</units>
+    <value>16.20</value>
+    <char_value>16.20</char_value>
+    <raw_value>16.199140548706055</raw_value>
+    <fmt>%.2f</fmt>
+  </pv>
+  <pv id="ar" name="usxAERO:m6.RBV">
+    <pvname>usxAERO:m6.RBV</pvname>
+    <mnemonic>ar</mnemonic>
+    <description>motor AR, degrees</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.240191</value>
+    <char_value>1.240191</char_value>
+    <raw_value>1.2401909510522524</raw_value>
+    <fmt>%.6f</fmt>
+  </pv>
+  <pv id="ar_dmov" name="usxAERO:m6.DMOV">
+    <pvname>usxAERO:m6.DMOV</pvname>
+    <mnemonic>ar_dmov</mnemonic>
+    <description>motor done moving AR</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="ax" name="usxAERO:m4.RBV">
+    <pvname>usxAERO:m4.RBV</pvname>
+    <mnemonic>ax</mnemonic>
+    <description>motor AX, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-312.558</value>
+    <char_value>-312.558</char_value>
+    <raw_value>-312.55791600000003</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="ax_dmov" name="usxAERO:m4.DMOV">
+    <pvname>usxAERO:m4.DMOV</pvname>
+    <mnemonic>ax_dmov</mnemonic>
+    <description>motor done moving AX</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="ay" name="usxAERO:m5.RBV">
+    <pvname>usxAERO:m5.RBV</pvname>
+    <mnemonic>ay</mnemonic>
+    <description>motor AY, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-7.377</value>
+    <char_value>-7.377</char_value>
+    <raw_value>-7.377229</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="ay_dmov" name="usxAERO:m5.DMOV">
+    <pvname>usxAERO:m5.DMOV</pvname>
+    <mnemonic>ay_dmov</mnemonic>
+    <description>motor done moving AY</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="beam_available" name="usxLAX:USAXS:BeamActive.VAL">
+    <pvname>usxLAX:USAXS:BeamActive.VAL</pvname>
+    <mnemonic>beam_available</mnemonic>
+    <description>12-ID-C beam is available</description>
+    <timestamp>2025-04-23T11:44:44</timestamp>
+    <record_type>None</record_type>
+    <counter>66</counter>
+    <units>None</units>
+    <value>0.0</value>
+    <char_value>0.0</char_value>
+    <raw_value>0.0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="diode_VDC" name="usxRIO:GalilAi2_MON.VAL">
+    <pvname>usxRIO:GalilAi2_MON.VAL</pvname>
+    <mnemonic>diode_VDC</mnemonic>
+    <description>ADC diode, VDC</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>75715</counter>
+    <units>None</units>
+    <value>2.54</value>
+    <char_value>2.54</char_value>
+    <raw_value>2.5408935546875</raw_value>
+    <fmt>%.2f</fmt>
+  </pv>
+  <pv id="diode_amp_current" name="usxLAX:USAXS:upd">
+    <pvname>usxLAX:USAXS:upd</pvname>
+    <mnemonic>diode_amp_current</mnemonic>
+    <description>photodiode computed current, A</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>6111</counter>
+    <units>None</units>
+    <value>1.34e-12</value>
+    <char_value>1.34e-12</char_value>
+    <raw_value>1.33615e-12</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="diode_amp_gain" name="usxLAX:pd01:seq02:gain">
+    <pvname>usxLAX:pd01:seq02:gain</pvname>
+    <mnemonic>diode_amp_gain</mnemonic>
+    <description>PD amplifier diode gain, V/A</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.00e+12</value>
+    <char_value>1.00e+12</char_value>
+    <raw_value>1000000000000.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="diode_count_rate" name="usxLAX:pd01:seq02:lurate">
+    <pvname>usxLAX:pd01:seq02:lurate</pvname>
+    <mnemonic>diode_count_rate</mnemonic>
+    <description>diode count rate (at last update), c/s</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>6111</counter>
+    <units>None</units>
+    <value>133615.0</value>
+    <char_value>133615.0</char_value>
+    <raw_value>133615.0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="diode_current" name="usxLAX:pd01:seq02:lucurrent">
+    <pvname>usxLAX:pd01:seq02:lucurrent</pvname>
+    <mnemonic>diode_current</mnemonic>
+    <description>photodiode last-update current, A</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>6111</counter>
+    <units>None</units>
+    <value>-4.561e-13</value>
+    <char_value>-4.561e-13</char_value>
+    <raw_value>-4.5614e-13</raw_value>
+    <fmt>%.3e</fmt>
+  </pv>
+  <pv id="dx" name="usxAERO:m1.RBV">
+    <pvname>usxAERO:m1.RBV</pvname>
+    <mnemonic>dx</mnemonic>
+    <description>motor DX, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-167.478</value>
+    <char_value>-167.478</char_value>
+    <raw_value>-167.478413</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="dx_dmov" name="usxAERO:m1.DMOV">
+    <pvname>usxAERO:m1.DMOV</pvname>
+    <mnemonic>dx_dmov</mnemonic>
+    <description>motor done moving DX</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="dy" name="usxAERO:m2.RBV">
+    <pvname>usxAERO:m2.RBV</pvname>
+    <mnemonic>dy</mnemonic>
+    <description>motor DY, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-87.363</value>
+    <char_value>-87.363</char_value>
+    <raw_value>-87.36254100000002</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="dy_dmov" name="usxAERO:m2.DMOV">
+    <pvname>usxAERO:m2.DMOV</pvname>
+    <mnemonic>dy_dmov</mnemonic>
+    <description>motor done moving DY</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="instrument_mode" name="usxLAX:SAXS:USAXSSAXSMode">
+    <pvname>usxLAX:SAXS:USAXSSAXSMode</pvname>
+    <mnemonic>instrument_mode</mnemonic>
+    <description>Instrument mode</description>
+    <timestamp>2025-04-07T09:19:44</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="lax_alldone" name="usxLAX:alldone">
+    <pvname>usxLAX:alldone</pvname>
+    <mnemonic>lax_alldone</mnemonic>
+    <description>LAX motors moving</description>
+    <timestamp>2025-04-22T10:37:11</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="linkamT96_Pressure" name="usxLINKAM:tc1:VACUUM">
+    <pvname>usxLINKAM:tc1:VACUUM</pvname>
+    <mnemonic>linkamT96_Pressure</mnemonic>
+    <description>Linkam Pressure, mBar</description>
+    <timestamp>1989-12-31T18:00:00</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.0</value>
+    <char_value>0.0</char_value>
+    <raw_value>0.0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="linkamT96_VaccumStatus" name="usxLINKAM:tc1:STAT:VAC:CNTRL">
+    <pvname>usxLINKAM:tc1:STAT:VAC:CNTRL</pvname>
+    <mnemonic>linkamT96_VaccumStatus</mnemonic>
+    <description>Linkam Vacuum Status</description>
+    <timestamp>2025-04-05T15:31:21</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0</value>
+    <char_value>0</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="linkamT96_errors" name="usxLINKAM:tc1:CTRLLR:ERR">
+    <pvname>usxLINKAM:tc1:CTRLLR:ERR</pvname>
+    <mnemonic>linkamT96_errors</mnemonic>
+    <description>Linkam errors</description>
+    <timestamp>2025-04-23T11:45:33</timestamp>
+    <record_type>None</record_type>
+    <counter>7661</counter>
+    <units>None</units>
+    <value>No Error</value>
+    <char_value>No Error</char_value>
+    <raw_value>No Error</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="linkamT96_limit" name="usxLINKAM:tc1:SETPOINT">
+    <pvname>usxLINKAM:tc1:SETPOINT</pvname>
+    <mnemonic>linkamT96_limit</mnemonic>
+    <description>Linkam Limit, C</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>40</value>
+    <char_value>40</char_value>
+    <raw_value>40.0</raw_value>
+    <fmt>%.0f</fmt>
+  </pv>
+  <pv id="linkamT96_ln2Status" name="usxLINKAM:tc1:STAT:LNP:PUMPING">
+    <pvname>usxLINKAM:tc1:STAT:LNP:PUMPING</pvname>
+    <mnemonic>linkamT96_ln2Status</mnemonic>
+    <description>Linkam LN2 Status, C/min</description>
+    <timestamp>2025-04-05T15:31:21</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0</value>
+    <char_value>0</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="linkamT96_rate" name="usxLINKAM:tc1:RAMPRATE">
+    <pvname>usxLINKAM:tc1:RAMPRATE</pvname>
+    <mnemonic>linkamT96_rate</mnemonic>
+    <description>Linkam Rate, C/min</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>200.0</value>
+    <char_value>200.0</char_value>
+    <raw_value>200.0</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="linkamT96_status" name="usxLINKAM:tc1:STAT:HTR1:HEATING">
+    <pvname>usxLINKAM:tc1:STAT:HTR1:HEATING</pvname>
+    <mnemonic>linkamT96_status</mnemonic>
+    <description>Linkam Heating</description>
+    <timestamp>2025-04-07T09:06:20</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0</value>
+    <char_value>0</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="linkamT96_temp" name="usxLINKAM:tc1:TEMP">
+    <pvname>usxLINKAM:tc1:TEMP</pvname>
+    <mnemonic>linkamT96_temp</mnemonic>
+    <description>Linkam T96 Temp., C</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>28.9</value>
+    <char_value>28.9</char_value>
+    <raw_value>28.900169372558594</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="mono_shtr_opened" name="PA:12ID:STA_C_SCS_OPEN_PL.VAL">
+    <pvname>PA:12ID:STA_C_SCS_OPEN_PL.VAL</pvname>
+    <mnemonic>mono_shtr_opened</mnemonic>
+    <description>12-ID-C mono shutter opened</description>
+    <timestamp>2025-04-23T11:44:44</timestamp>
+    <record_type>None</record_type>
+    <counter>10</counter>
+    <units>None</units>
+    <value>0</value>
+    <char_value>0</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="mr" name="usxAERO:m12.RBV">
+    <pvname>usxAERO:m12.RBV</pvname>
+    <mnemonic>mr</mnemonic>
+    <description>motor MR, degrees</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-1.678896</value>
+    <char_value>-1.678896</char_value>
+    <raw_value>-1.6788961095237334</raw_value>
+    <fmt>%.6f</fmt>
+  </pv>
+  <pv id="mr_dmov" name="usxAERO:m12.DMOV">
+    <pvname>usxAERO:m12.DMOV</pvname>
+    <mnemonic>mr_dmov</mnemonic>
+    <description>motor done moving MR</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="mx" name="usxAERO:m10.RBV">
+    <pvname>usxAERO:m10.RBV</pvname>
+    <mnemonic>mx</mnemonic>
+    <description>motor MX, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-199.976</value>
+    <char_value>-199.976</char_value>
+    <raw_value>-199.97609000000003</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="mx_dmov" name="usxAERO:m10.DMOV">
+    <pvname>usxAERO:m10.DMOV</pvname>
+    <mnemonic>mx_dmov</mnemonic>
+    <description>motor done moving MX</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="my" name="usxAERO:m11.RBV">
+    <pvname>usxAERO:m11.RBV</pvname>
+    <mnemonic>my</mnemonic>
+    <description>motor MY, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>20.098</value>
+    <char_value>20.098</char_value>
+    <raw_value>20.097893</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="my_dmov" name="usxAERO:m11.DMOV">
+    <pvname>usxAERO:m11.DMOV</pvname>
+    <mnemonic>my_dmov</mnemonic>
+    <description>motor done moving MY</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="pf4_thickness_Al" name="12idPyFilter:FL1:sortedIndex_RBV">
+    <pvname>12idPyFilter:FL1:sortedIndex_RBV</pvname>
+    <mnemonic>pf4_thickness_Al</mnemonic>
+    <description>filter order</description>
+    <timestamp>2025-04-22T16:17:06</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.0</value>
+    <char_value>0.0</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="pf4_trans" name="12idPyFilter:FL1:transmission_RBV">
+    <pvname>12idPyFilter:FL1:transmission_RBV</pvname>
+    <mnemonic>pf4_trans</mnemonic>
+    <description>filter transmission</description>
+    <timestamp>2025-04-22T16:17:06</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.00e+00</value>
+    <char_value>1.00e+00</char_value>
+    <raw_value>1.0</raw_value>
+    <fmt>%.2e</fmt>
+  </pv>
+  <pv id="sampleTitle" name="usxLAX:sampleTitle">
+    <pvname>usxLAX:sampleTitle</pvname>
+    <mnemonic>sampleTitle</mnemonic>
+    <description>SPEC sample title</description>
+    <timestamp>2025-04-07T07:18:16</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>AMB5_40C_669min</value>
+    <char_value>AMB5_40C_669min</char_value>
+    <raw_value>AMB5_40C_669min</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="saxs_x" name="usxAERO:m13.RBV">
+    <pvname>usxAERO:m13.RBV</pvname>
+    <mnemonic>saxs_x</mnemonic>
+    <description>motor saxs_x, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>67.907</value>
+    <char_value>67.907</char_value>
+    <raw_value>67.907491</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="saxs_x_dmov" name="usxAERO:m13.DMOV">
+    <pvname>usxAERO:m13.DMOV</pvname>
+    <mnemonic>saxs_x_dmov</mnemonic>
+    <description>motor done moving saxs_x</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="saxs_y" name="usxAERO:m15.RBV">
+    <pvname>usxAERO:m15.RBV</pvname>
+    <mnemonic>saxs_y</mnemonic>
+    <description>motor saxs_y, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-21.913</value>
+    <char_value>-21.913</char_value>
+    <raw_value>-21.913325</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="saxs_y_dmov" name="usxAERO:m15.DMOV">
+    <pvname>usxAERO:m15.DMOV</pvname>
+    <mnemonic>saxs_y_dmov</mnemonic>
+    <description>motor done moving saxs_y</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="saxs_z" name="usxAERO:m14.RBV">
+    <pvname>usxAERO:m14.RBV</pvname>
+    <mnemonic>saxs_z</mnemonic>
+    <description>motor saxs_z, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-136.620</value>
+    <char_value>-136.620</char_value>
+    <raw_value>-136.619982</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="saxs_z_dmov" name="usxAERO:m14.DMOV">
+    <pvname>usxAERO:m14.DMOV</pvname>
+    <mnemonic>saxs_z_dmov</mnemonic>
+    <description>motor done moving saxs_z</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="scaler_I0" name="usxLAX:vsc:c0.S2">
+    <pvname>usxLAX:vsc:c0.S2</pvname>
+    <mnemonic>scaler_I0</mnemonic>
+    <description>scaler I0, counts</description>
+    <timestamp>2025-04-23T11:45:31</timestamp>
+    <record_type>None</record_type>
+    <counter>2928</counter>
+    <units>None</units>
+    <value>190</value>
+    <char_value>190</char_value>
+    <raw_value>190.0</raw_value>
+    <fmt>%d</fmt>
+  </pv>
+  <pv id="scaler_I00" name="usxLAX:vsc:c0.S3">
+    <pvname>usxLAX:vsc:c0.S3</pvname>
+    <mnemonic>scaler_I00</mnemonic>
+    <description>scaler I00, counts</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0</value>
+    <char_value>0</char_value>
+    <raw_value>0.0</raw_value>
+    <fmt>%d</fmt>
+  </pv>
+  <pv id="scaler_I000" name="usxLAX:vsc:c2.S2">
+    <pvname>usxLAX:vsc:c2.S2</pvname>
+    <mnemonic>scaler_I000</mnemonic>
+    <description>scaler I000, counts</description>
+    <timestamp>2025-04-23T11:44:35</timestamp>
+    <record_type>None</record_type>
+    <counter>13618</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1.0</raw_value>
+    <fmt>%d</fmt>
+  </pv>
+  <pv id="scaler_cnt" name="usxLAX:vsc:c0.CNT">
+    <pvname>usxLAX:vsc:c0.CNT</pvname>
+    <mnemonic>scaler_cnt</mnemonic>
+    <description>scaler counting time, s</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.00</value>
+    <char_value>0.00</char_value>
+    <raw_value>0</raw_value>
+    <fmt>%.2f</fmt>
+  </pv>
+  <pv id="scaler_diode" name="usxLAX:vsc:c0.S4">
+    <pvname>usxLAX:vsc:c0.S4</pvname>
+    <mnemonic>scaler_diode</mnemonic>
+    <description>scaler diode, counts</description>
+    <timestamp>2025-04-23T11:45:31</timestamp>
+    <record_type>None</record_type>
+    <counter>6111</counter>
+    <units>None</units>
+    <value>133615</value>
+    <char_value>133615</char_value>
+    <raw_value>133615.0</raw_value>
+    <fmt>%d</fmt>
+  </pv>
+  <pv id="scaler_t" name="usxLAX:vsc:c0.T">
+    <pvname>usxLAX:vsc:c0.T</pvname>
+    <mnemonic>scaler_t</mnemonic>
+    <description>scaler counting time elasped, s</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1.0</value>
+    <char_value>1.0</char_value>
+    <raw_value>1.0</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="scaler_tp" name="usxLAX:vsc:c0.TP">
+    <pvname>usxLAX:vsc:c0.TP</pvname>
+    <mnemonic>scaler_tp</mnemonic>
+    <description>scaler counting time preset, s</description>
+    <timestamp>2025-04-23T09:37:53</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>7.0</value>
+    <char_value>7.0</char_value>
+    <raw_value>7.0</raw_value>
+    <fmt>%.1f</fmt>
+  </pv>
+  <pv id="spec_data_file" name="usxLAX:specFile">
+    <pvname>usxLAX:specFile</pvname>
+    <mnemonic>spec_data_file</mnemonic>
+    <description>SPEC data file</description>
+    <timestamp>2025-04-07T07:18:16</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>04_06_AMB5800.dat</value>
+    <char_value>04_06_AMB5800.dat</char_value>
+    <raw_value>04_06_AMB5800.dat</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="spec_dir" name="usxLAX:userDir">
+    <pvname>usxLAX:userDir</pvname>
+    <mnemonic>spec_dir</mnemonic>
+    <description>SPEC data directory</description>
+    <timestamp>2025-04-06T19:58:41</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>/share1/USAXS_data/2025-04/04_06_AMB5800</value>
+    <char_value>/share1/USAXS_data/2025-04/04_06_AMB5800</char_value>
+    <raw_value>/share1/USAXS_data/2025-04/04_06_AMB5800</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="spec_macro_file" name="usxLAX:USAXS:macroFile">
+    <pvname>usxLAX:USAXS:macroFile</pvname>
+    <mnemonic>spec_macro_file</mnemonic>
+    <description>SPEC macro file</description>
+    <timestamp>None</timestamp>
+    <record_type>None</record_type>
+    <counter>0</counter>
+    <units>None</units>
+    <value>None</value>
+    <char_value>None</char_value>
+    <raw_value>None</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="spec_scan" name="usxLAX:specScan">
+    <pvname>usxLAX:specScan</pvname>
+    <mnemonic>spec_scan</mnemonic>
+    <description>SPEC scan number</description>
+    <timestamp>2025-04-07T07:18:16</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1078</value>
+    <char_value>1078</char_value>
+    <raw_value>1078</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="state" name="usxLAX:state">
+    <pvname>usxLAX:state</pvname>
+    <mnemonic>state</mnemonic>
+    <description>SPEC what is happening?</description>
+    <timestamp>2025-04-07T09:19:44</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>USAXS moved to OpenBeamPath mode</value>
+    <char_value>USAXS moved to OpenBeamPath mode</char_value>
+    <raw_value>USAXS moved to OpenBeamPath mode</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="sx" name="usxAERO:m8.RBV">
+    <pvname>usxAERO:m8.RBV</pvname>
+    <mnemonic>sx</mnemonic>
+    <description>motor SX, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-159.639</value>
+    <char_value>-159.639</char_value>
+    <raw_value>-159.63925</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="sx_dmov" name="usxAERO:m8.DMOV">
+    <pvname>usxAERO:m8.DMOV</pvname>
+    <mnemonic>sx_dmov</mnemonic>
+    <description>motor done moving SX</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="sy" name="usxAERO:m9.RBV">
+    <pvname>usxAERO:m9.RBV</pvname>
+    <mnemonic>sy</mnemonic>
+    <description>motor SY, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.120</value>
+    <char_value>-0.120</char_value>
+    <raw_value>-0.12025700000000938</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="sy_dmov" name="usxAERO:m9.DMOV">
+    <pvname>usxAERO:m9.DMOV</pvname>
+    <mnemonic>sy_dmov</mnemonic>
+    <description>motor done moving SY</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="timeStamp" name="usxLAX:timeStamp">
+    <pvname>usxLAX:timeStamp</pvname>
+    <mnemonic>timeStamp</mnemonic>
+    <description>USAXS macro timeStamp</description>
+    <timestamp>2025-04-07T07:18:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>2025-04-07 07:18:24.560576</value>
+    <char_value>2025-04-07 07:18:24.560576</char_value>
+    <raw_value>2025-04-07 07:18:24.560576</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="uslith" name="usxLAX:m58:c1:m8.RBV">
+    <pvname>usxLAX:m58:c1:m8.RBV</pvname>
+    <mnemonic>uslith</mnemonic>
+    <description>USAXS slit horizontal gap, mm</description>
+    <timestamp>2025-04-22T10:37:11</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.4000</value>
+    <char_value>0.4000</char_value>
+    <raw_value>0.39996629999999556</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="uslith0" name="usxLAX:m58:c1:m6.RBV">
+    <pvname>usxLAX:m58:c1:m6.RBV</pvname>
+    <mnemonic>uslith0</mnemonic>
+    <description>USAXS slit horizontal center, mm</description>
+    <timestamp>2025-04-22T10:33:06</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.0000</value>
+    <char_value>-0.0000</char_value>
+    <raw_value>-1.9999999949504854e-06</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="uslith0_dmov" name="usxLAX:m58:c1:m6.DMOV">
+    <pvname>usxLAX:m58:c1:m6.DMOV</pvname>
+    <mnemonic>uslith0_dmov</mnemonic>
+    <description>USAXS slit horizontal center</description>
+    <timestamp>2025-04-22T10:33:06</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="uslith_dmov" name="usxLAX:m58:c1:m8.DMOV">
+    <pvname>usxLAX:m58:c1:m8.DMOV</pvname>
+    <mnemonic>uslith_dmov</mnemonic>
+    <description>USAXS slit horizontal gap</description>
+    <timestamp>2025-04-22T10:37:11</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="uslitv" name="usxLAX:m58:c1:m7.RBV">
+    <pvname>usxLAX:m58:c1:m7.RBV</pvname>
+    <mnemonic>uslitv</mnemonic>
+    <description>USAXS slit vertical gap, mm</description>
+    <timestamp>2025-04-22T10:37:05</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>0.4001</value>
+    <char_value>0.4001</char_value>
+    <raw_value>0.4001240000000017</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="uslitv0" name="usxLAX:m58:c1:m5.RBV">
+    <pvname>usxLAX:m58:c1:m5.RBV</pvname>
+    <mnemonic>uslitv0</mnemonic>
+    <description>USAXS slit vertical center, mm</description>
+    <timestamp>2025-04-22T10:31:02</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-0.2751</value>
+    <char_value>-0.2751</char_value>
+    <raw_value>-0.27513199999999927</raw_value>
+    <fmt>%.4f</fmt>
+  </pv>
+  <pv id="uslitv0_dmov" name="usxLAX:m58:c1:m5.DMOV">
+    <pvname>usxLAX:m58:c1:m5.DMOV</pvname>
+    <mnemonic>uslitv0_dmov</mnemonic>
+    <description>USAXS slit vertical center</description>
+    <timestamp>2025-04-22T10:31:02</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="uslitv_dmov" name="usxLAX:m58:c1:m7.DMOV">
+    <pvname>usxLAX:m58:c1:m7.DMOV</pvname>
+    <mnemonic>uslitv_dmov</mnemonic>
+    <description>USAXS slit vertical gap</description>
+    <timestamp>2025-04-22T10:37:05</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="waxs1_x" name="usxAERO:m3.RBV">
+    <pvname>usxAERO:m3.RBV</pvname>
+    <mnemonic>waxs1_x</mnemonic>
+    <description>motor waxs1_x, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>12.019</value>
+    <char_value>12.019</char_value>
+    <raw_value>12.018590999999999</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="waxs1_x_dmov" name="usxAERO:m3.DMOV">
+    <pvname>usxAERO:m3.DMOV</pvname>
+    <mnemonic>waxs1_x_dmov</mnemonic>
+    <description>motor done moving waxs1_x</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="waxs2_x" name="usxAERO:m7.RBV">
+    <pvname>usxAERO:m7.RBV</pvname>
+    <mnemonic>waxs2_x</mnemonic>
+    <description>motor waxs2_x, mm</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>-3.183</value>
+    <char_value>-3.183</char_value>
+    <raw_value>-3.183297</raw_value>
+    <fmt>%.3f</fmt>
+  </pv>
+  <pv id="waxs2_x_dmov" name="usxAERO:m7.DMOV">
+    <pvname>usxAERO:m7.DMOV</pvname>
+    <mnemonic>waxs2_x_dmov</mnemonic>
+    <description>motor done moving waxs2_x</description>
+    <timestamp>2025-04-10T10:10:24</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+  <pv id="white_shtr_opened" name="PA:12ID:STA_A_FES_OPEN_PL.VAL">
+    <pvname>PA:12ID:STA_A_FES_OPEN_PL.VAL</pvname>
+    <mnemonic>white_shtr_opened</mnemonic>
+    <description>12-ID white shutter opened</description>
+    <timestamp>2025-04-22T08:50:20</timestamp>
+    <record_type>None</record_type>
+    <counter>1</counter>
+    <units>None</units>
+    <value>1</value>
+    <char_value>1</char_value>
+    <raw_value>1</raw_value>
+    <fmt>%s</fmt>
+  </pv>
+</pvWebMonitor>

@@ -1,0 +1,5 @@
+# [./manage.sh Wed Apr 23 09:33:02 CDT 2025] not running : /home/beams/USAXS/.conda/envs/livedata2/bin/pvWebMonitor
+# [./manage.sh Wed Apr 23 09:33:02 CDT 2025] started 412833: /home/beams/USAXS/.conda/envs/livedata2/bin/pvWebMonitor
+# [./manage.sh Wed Apr 23 09:37:34 CDT 2025] stopped 412833: /home/beams/USAXS/.conda/envs/livedata2/bin/pvWebMonitor
+# [./manage.sh Wed Apr 23 09:37:52 CDT 2025] not running : /home/beams/USAXS/.conda/envs/livedata2/bin/pvWebMonitor
+# [./manage.sh Wed Apr 23 09:37:52 CDT 2025] started 413209: /home/beams/USAXS/.conda/envs/livedata2/bin/pvWebMonitor
